@@ -1,0 +1,15 @@
+@ Index:   Currency Conversion: USD -> DRC Francs
+@ Author:  Jonathan M. Cameron
+@ Version: 1
+@
+@ Variables:  Uses 'Taux', number of DRC Francs per USD
+@    2400 STO 'Taux'
+@ 
+@ Input:   Number of USD to convert to DRC Francs
+@ Output:  DRC Francs
+@
+@ Test:  1 Fc ==> 2400
+
+LBL ‘Fc’
+  RCL ‘Taux’
+  ×
