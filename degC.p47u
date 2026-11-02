@@ -4,7 +4,7 @@
 @ Input:   Temperature in Farenheiht 
 @ Output:  Temperature in Celsius
 @
-@ Test:  32 degC -> 0
+@ Test:  32 degC ==> 0
 @
 @ Version: 1
 
