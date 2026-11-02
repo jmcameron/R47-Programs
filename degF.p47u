@@ -1,0 +1,15 @@
+@ Index:   Simple temperature conversion:  deg C -> deg F
+@ Author:  Jonathan M. Cameron
+@ 
+@ Input:   Temperature in Celsius
+@ Output:  Temperature in Farenheiht
+@
+@ Test:  0 degF -> 32
+@
+@ Version: 1
+
+LBL ‘degF’
+  1.8
+  ×
+  32
+  +
