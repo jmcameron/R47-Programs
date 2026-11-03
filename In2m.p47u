@@ -1,0 +1,15 @@
+@ Index:   Simple length conversion:  inches -> meters
+@ Author:  Jonathan M. Cameron
+@ 
+@ Input:   Length in inches
+@ Output:  Length in meters
+@
+@ Test:  120 In⇒m 3.048
+@
+@ Version: 1
+
+LBL ‘In⇒m’
+  12
+  ÷
+  0.3048
+  ×
