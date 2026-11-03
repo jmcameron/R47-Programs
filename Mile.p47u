@@ -1,0 +1,13 @@
+@ Index:   Simple length conversion:  km -> miles
+@ Author:  Jonathan M. Cameron
+@ 
+@ Input:   Length in kilometers
+@ Output:  Length in miles
+@
+@ Test:  1.609344 Miles ==> 1
+@
+@ Version: 1
+
+LBL ‘Mile’
+  1.609344
+  ÷

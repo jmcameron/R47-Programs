@@ -1,0 +1,13 @@
+@ Index:   Simple length conversion:  miles -> km
+@ Author:  Jonathan M. Cameron
+@ 
+@ Input:   Length in miles
+@ Output:  Length in kilometers
+@
+@ Test:  1 Km ==> 1.609344
+@
+@ Version: 1
+
+LBL ‘Km’
+  1.609344
+  ×
